@@ -1,0 +1,336 @@
+2020-01-09 16:54:10,845 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 16:54:10,926 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 16:54:13,925 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 16:54:14,030 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 16:54:14,039 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 16:54:14,094 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 16:54:14,104 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 16:54:16,164 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 16:57:31,791 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 16:57:31,848 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 16:57:34,682 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 16:57:34,796 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 16:57:34,806 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 16:57:34,859 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 16:57:34,869 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 16:57:38,088 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 16:57:38,101 - LoginTest - INFO - Login successful
+2020-01-09 19:48:46,665 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 19:48:46,749 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 19:48:49,142 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 19:48:49,263 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 19:48:49,274 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 19:48:49,338 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 19:48:49,349 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 19:48:53,701 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 19:48:56,741 - LoginPage - INFO - Element not found with locator: xpath and locator type: xpath
+2020-01-09 19:48:56,741 - LoginPage - INFO - Element not found
+2020-01-09 19:52:30,749 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 19:52:30,806 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 19:52:33,416 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 19:52:33,522 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 19:52:33,532 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 19:52:33,584 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 19:52:33,594 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 19:52:37,045 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 19:52:40,079 - LoginPage - INFO - Element not found with locator: xpath and locator type: xpath
+2020-01-09 19:52:40,079 - LoginPage - INFO - Element not found
+2020-01-09 19:56:52,287 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 19:56:52,380 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 19:56:54,937 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 19:56:55,047 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 19:56:55,057 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 19:56:55,109 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 19:56:55,119 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 19:56:58,206 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 19:57:01,258 - LoginPage - INFO - Element not found with locator: class and locator type: class
+2020-01-09 19:57:01,258 - LoginPage - INFO - Element not found
+2020-01-09 20:02:14,217 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 20:02:14,270 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 20:02:18,081 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 20:02:18,178 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 20:02:18,188 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 20:02:18,241 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 20:02:18,251 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 20:02:21,609 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 20:02:21,622 - LoginTest - INFO - Login successful
+2020-01-09 20:08:54,219 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 20:08:54,282 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 20:08:57,262 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 20:08:57,372 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 20:08:57,382 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 20:08:57,441 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 20:08:57,452 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 20:09:01,236 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 20:09:04,250 - LoginPage - INFO - Element not found with locator: xpath and locator type: xpath
+2020-01-09 20:09:04,250 - LoginPage - INFO - Element not found
+2020-01-09 20:15:21,635 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 20:15:21,690 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 20:15:25,339 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 20:15:25,442 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 20:15:25,452 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 20:15:25,509 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 20:15:25,519 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 20:15:29,571 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 20:15:32,581 - LoginPage - INFO - Element not found with locator: xpath and locator type: xpath
+2020-01-09 20:15:32,581 - LoginPage - INFO - Element not found
+2020-01-09 20:48:12,522 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-09 20:48:12,571 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-09 20:48:15,536 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-09 20:48:15,636 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-09 20:48:15,647 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-09 20:48:15,706 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-09 20:48:15,717 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-09 20:48:20,821 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-09 20:48:20,834 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-09 20:48:20,834 - LoginPage - INFO - Element found
+2020-01-11 20:06:41,726 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:06:41,775 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:06:45,077 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:06:45,188 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:06:45,197 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:06:45,256 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:06:45,267 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:06:47,056 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:06:47,068 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 20:06:47,068 - LoginPage - INFO - Element found
+2020-01-11 20:06:50,105 - LoginPage - INFO - Element not found with locator: Login and locator type: link
+2020-01-11 20:06:50,105 - LoginPage - INFO - Cannot click on element with locator: Login locator type: link
+2020-01-11 20:06:50,132 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:06:50,203 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:06:50,209 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:06:50,261 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:06:50,267 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:06:50,354 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:06:53,378 - LoginPage - INFO - Element not found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 20:06:53,378 - LoginPage - INFO - Element not found
+2020-01-11 20:09:12,907 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:09:12,991 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:09:16,052 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:09:16,158 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:09:16,168 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:09:16,231 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:09:16,243 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:09:18,180 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:09:18,191 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 20:09:18,191 - LoginPage - INFO - Element found
+2020-01-11 20:09:21,235 - LoginPage - INFO - Element not found with locator: Login and locator type: link
+2020-01-11 20:09:21,236 - LoginPage - INFO - Cannot click on element with locator: Login locator type: link
+2020-01-11 20:09:21,254 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:09:21,319 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:09:21,325 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:09:21,377 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:09:21,383 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:09:21,454 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:09:24,492 - LoginPage - INFO - Element not found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 20:09:24,492 - LoginPage - INFO - Element not found
+2020-01-11 20:10:17,001 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:10:17,052 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:10:20,251 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:10:20,355 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:10:20,364 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:10:20,425 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:10:20,436 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:10:22,123 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:10:22,135 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 20:10:22,135 - LoginPage - INFO - Element found
+2020-01-11 20:10:22,233 - LoginPage - INFO - Element not found with locator: Login and locator type: link
+2020-01-11 20:10:22,233 - LoginPage - INFO - Cannot click on element with locator: Login locator type: link
+2020-01-11 20:10:22,239 - LoginPage - INFO - Element not found with locator: user_email and locator type: id
+2020-01-11 20:10:22,240 - LoginPage - INFO - Cannot send data to element with locator: user_email locator type: id
+2020-01-11 20:10:22,245 - LoginPage - INFO - Element not found with locator: user_password and locator type: id
+2020-01-11 20:10:22,245 - LoginPage - INFO - Cannot send data to element with locator: user_password locator type: id
+2020-01-11 20:10:22,251 - LoginPage - INFO - Element not found with locator: commit and locator type: name
+2020-01-11 20:10:22,251 - LoginPage - INFO - Cannot click on element with locator: commit locator type: name
+2020-01-11 20:10:22,255 - LoginPage - INFO - Element not found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 20:10:22,255 - LoginPage - INFO - Element not found
+2020-01-11 20:11:31,009 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:11:31,089 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:11:33,920 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:11:34,025 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:11:34,035 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:11:34,098 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:11:34,109 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:11:35,506 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:11:35,517 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 20:11:35,517 - LoginPage - INFO - Element found
+2020-01-11 20:11:36,956 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:11:37,028 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:11:39,027 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:11:39,097 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:11:39,107 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:11:39,160 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:11:39,171 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:11:42,396 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:11:42,409 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 20:11:42,409 - LoginPage - INFO - Element found
+2020-01-11 20:12:15,445 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:12:15,526 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:12:18,240 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:12:18,353 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:12:18,363 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:12:18,421 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:12:18,430 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:12:20,387 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:12:20,398 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 20:12:20,398 - LoginPage - INFO - Element found
+2020-01-11 20:12:21,324 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:12:21,388 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:12:22,677 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:12:22,744 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:12:22,754 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:12:22,807 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:12:22,818 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:12:25,858 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:12:25,871 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 20:12:25,871 - LoginPage - INFO - Element found
+2020-01-11 20:22:08,452 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:22:08,519 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:22:11,107 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:22:11,205 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:22:11,215 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:22:11,276 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:22:11,285 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:22:13,095 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:22:13,107 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 20:22:13,107 - LoginPage - INFO - Element found
+2020-01-11 20:22:14,505 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:22:14,551 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:22:16,607 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:22:16,675 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:22:16,684 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:22:16,737 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:22:16,747 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:22:20,721 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:22:20,735 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 20:22:20,736 - LoginPage - INFO - Element found
+2020-01-11 20:57:13,277 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 20:57:13,371 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 20:57:16,051 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:57:16,160 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:57:16,170 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:57:16,230 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:57:16,240 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:57:17,934 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:57:17,945 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 20:57:17,945 - LoginPage - INFO - Element found
+2020-01-11 20:57:20,998 - LoginPage - INFO - Element not found with locator: Login and locator type: link
+2020-01-11 20:57:20,998 - LoginPage - INFO - Cannot click on element with locator: Login locator type: link
+2020-01-11 20:57:21,012 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 20:57:21,081 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 20:57:21,087 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 20:57:21,139 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 20:57:21,145 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 20:57:21,230 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 20:57:24,266 - LoginPage - INFO - Element not found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 20:57:24,266 - LoginPage - INFO - Element not found
+2020-01-11 21:00:01,490 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 21:00:01,535 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 21:00:05,136 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 21:00:05,234 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 21:00:05,244 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 21:00:05,301 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 21:00:05,311 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 21:00:06,611 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 21:00:06,622 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 21:00:06,622 - LoginPage - INFO - Element found
+2020-01-11 21:00:07,981 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 21:00:08,064 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 21:00:09,899 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 21:00:09,968 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 21:00:09,979 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 21:00:10,033 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 21:00:10,043 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 21:00:13,041 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 21:00:13,054 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 21:00:13,054 - LoginPage - INFO - Element found
+2020-01-11 21:44:49,576 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 21:44:49,623 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 21:44:52,920 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 21:44:53,033 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 21:44:53,042 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 21:44:53,102 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 21:44:53,112 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 21:44:54,480 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 21:44:54,492 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 21:44:54,492 - LoginPage - INFO - Element found
+2020-01-11 21:44:55,602 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 21:44:55,646 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 21:44:58,043 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 21:44:58,112 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 21:44:58,122 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 21:44:58,176 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 21:44:58,186 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 21:45:00,957 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 21:45:00,970 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 21:45:00,970 - LoginPage - INFO - Element found
+2020-01-11 21:53:16,828 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 21:53:16,914 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 21:53:19,728 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 21:53:19,828 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 21:53:19,839 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 21:53:19,899 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 21:53:19,908 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 21:53:21,139 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 21:53:21,150 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 21:53:21,150 - LoginPage - INFO - Element found
+2020-01-11 21:53:22,386 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 21:53:22,437 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 21:53:24,138 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 21:53:24,206 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 21:53:24,216 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 21:53:24,270 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 21:53:24,280 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 21:53:28,120 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 21:53:28,134 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 21:53:28,134 - LoginPage - INFO - Element found
+2020-01-11 21:58:56,328 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 21:58:56,373 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 21:58:58,720 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 21:58:58,819 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 21:58:58,831 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 21:58:58,894 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 21:58:58,904 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 21:59:00,808 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 21:59:00,819 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 21:59:00,819 - LoginPage - INFO - Element found
+2020-01-11 22:00:14,958 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 22:00:15,006 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 22:00:17,984 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 22:00:18,082 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 22:00:18,092 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 22:00:18,154 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 22:00:18,166 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 22:00:19,793 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 22:00:19,804 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 22:00:19,804 - LoginPage - INFO - Element found
+2020-01-11 22:00:24,374 - LoginPage - INFO - Element not found with locator: Login and locator type: link
+2020-01-11 22:00:24,375 - LoginPage - INFO - Cannot click on element with locator: Login locator type: link
+2020-01-11 22:00:24,396 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 22:00:24,462 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 22:00:24,472 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 22:00:24,523 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 22:00:24,529 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 22:00:24,614 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 22:00:27,648 - LoginPage - INFO - Element not found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 22:00:27,648 - LoginPage - INFO - Element not found
+2020-01-11 22:02:20,146 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-11 22:02:20,210 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-11 22:02:23,746 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 22:02:23,848 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 22:02:23,858 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 22:02:23,914 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 22:02:23,924 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 22:02:25,663 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 22:02:25,675 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-11 22:02:25,675 - LoginPage - INFO - Element found
+2020-01-11 22:02:30,314 - LoginPage - INFO - Element not found with locator: Login and locator type: link
+2020-01-11 22:02:30,314 - LoginPage - INFO - Cannot click on element with locator: Login locator type: link
+2020-01-11 22:02:30,327 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-11 22:02:30,392 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-11 22:02:30,397 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-11 22:02:30,448 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-11 22:02:30,454 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-11 22:02:33,920 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-11 22:02:33,932 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-11 22:02:33,933 - LoginPage - INFO - Element found
