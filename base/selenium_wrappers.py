@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import *
 import logging
 import utilities.custom_logger as cl
@@ -13,6 +13,9 @@ class SeleniumWrapper:
 
     def __init__(self, driver):
         self.driver = driver
+
+    def get_title(self):
+        return self.driver.title
 
     def get_by_type(self, locator_type):
         locator_type = locator_type.lower()
@@ -79,7 +82,7 @@ class SeleniumWrapper:
                                  ignored_exceptions=[NoSuchElementException,
                                                      ElementNotVisibleException,
                                                      ElementNotSelectableException])
-            element = wait.until(EC.element_to_be_clickable((by_type, locator)))
+            element = wait.until(ec.element_to_be_clickable((by_type, locator)))
             self.log.info("Element appeared on the web page")
         except:
             self.log.info("Element not appeared on the web page")

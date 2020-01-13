@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-
+from base.webdriver_factory import WebDriverFactory
 
 @pytest.fixture()
 def setup():
@@ -14,18 +14,9 @@ def setup():
 def setup_before_all(request, browser):
 
     print("Once before all method")
-    if browser == "chrome":
-        base_url = "https://learn.letskodeit.com/"
-        driver = webdriver.Chrome()
-        driver.maximize_window()
-        driver.implicitly_wait(3)
-        driver.get(base_url)
-        print("running tests on Chrome")
-    else:
-        base_url = "https://learn.letskodeit.com/"
-        driver = webdriver.Firefox()
-        driver.get(base_url)
-        print("running on Firefox")
+    wdf = WebDriverFactory(browser)
+    driver = wdf.get_webdriver()
+
     if request.cls is not None:
         request.cls.driver = driver
     yield driver

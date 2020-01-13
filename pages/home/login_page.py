@@ -44,4 +44,8 @@ class LoginPage(SeleniumWrapper):
                                          locator_type="xpath")
         return result
 
-
+    def is_expected_title(self):
+        if "Let's Kode It" in self.get_title():
+            return True
+        else:
+            return False
