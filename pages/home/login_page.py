@@ -29,7 +29,7 @@ class LoginPage(BasePage):
         self.element_click(self._login_button, locator_type="name")
 
     def login(self, username="", password=""):
-        self.click_login_link()
+        # self.click_login_link()
         self.send_keys_to_email_field(username)
         self.send_keys_to_pass_field(password)
         self.click_login_button()

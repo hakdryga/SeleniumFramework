@@ -19,13 +19,12 @@ def setup_before_all(request, browser):
     wdf = WebDriverFactory(browser)
     driver = wdf.get_webdriver()
     # lp = LoginPage(driver)
-    # lp.login("test@email.com", "abcbac")
+    # lp.login("test@email.com", "abcabc")
 
     if request.cls is not None:
         request.cls.driver = driver
     yield driver
     driver.quit()
-    print("Once after all method")
 
 
 def pytest_addoption(parser):

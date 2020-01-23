@@ -26,6 +26,7 @@ class LoginTest(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_invalid_login(self):
+        self.lp.click_login_link()
         self.lp.login("test@email.com", "abcabcxx")
         result_login = self.lp.is_login_failed()
         assert result_login
