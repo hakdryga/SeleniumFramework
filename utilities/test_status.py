@@ -19,12 +19,15 @@ class TestStatus(SeleniumWrapper):
                 else:
                     self.result_list.append("FAIL")
                     self.log.error("### Verification Failed :: " + result_message)
+                    self.screenshot(result_message)
             else:
                 self.result_list.append("FAIL")
                 self.log.error("### Verification Failed :: " + result_message)
+                self.screenshot(result_message)
         except:
             self.result_list.append("FAILED")
             self.log.error("### Exception Occurred")
+            self.screenshot(result_message)
 
     def mark(self, result, result_message):
         """

@@ -46,3 +46,27 @@
 1578909067324	Marionette	INFO	Listening on port 57030
 1578909067336	Marionette	WARN	TLS certificate errors will be ignored for this session
 1578909084439	Marionette	INFO	Stopped listening on port 57030
+1579804538351	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mw/8hz5l2yd113_x7j3mmgbrbsr0000gn/T/rust_mozprofilesxu7JA"
+1579804539565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579804539565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579804539565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579804539565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579804541988	Marionette	INFO	Listening on port 58581
+1579804542088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: https://fedora.teachablecdn.com/packs/secure-162ecc8cc5666ba4dd94.js, line 3195: TypeError: r is null
+1579804575511	Marionette	INFO	Stopped listening on port 58581
+1579805031287	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mw/8hz5l2yd113_x7j3mmgbrbsr0000gn/T/rust_mozprofilew4wrwI"
+1579805031875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579805031875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579805031875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579805031876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579805033855	Marionette	INFO	Listening on port 59207
+1579805033887	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: , line 0: uncaught exception: error
+JavaScript error: https://fedora.teachablecdn.com/packs/secure-162ecc8cc5666ba4dd94.js, line 3195: TypeError: r is null
+1579805069843	Marionette	INFO	Stopped listening on port 59207

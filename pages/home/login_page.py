@@ -1,9 +1,9 @@
-from base.selenium_wrappers import SeleniumWrapper
+from base.base_page import BasePage
 import logging
 import utilities.custom_logger as cl
 
 
-class LoginPage(SeleniumWrapper):
+class LoginPage(BasePage):
     log = cl.custom_logger(logging.DEBUG)
 
     def __init__(self, driver):
@@ -44,8 +44,5 @@ class LoginPage(SeleniumWrapper):
                                          locator_type="xpath")
         return result
 
-    def is_expected_title(self):
-        if "Let's Kode It" in self.get_title():
-            return True
-        else:
-            return False
+    def is_expected_login_title(self):
+        return self.is_page_title_correct("Let's Kode It")

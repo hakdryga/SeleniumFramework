@@ -1,6 +1,8 @@
 import pytest
 from selenium import webdriver
 from base.webdriver_factory import WebDriverFactory
+from pages.home.login_page import LoginPage
+
 
 @pytest.fixture()
 def setup():
@@ -16,6 +18,8 @@ def setup_before_all(request, browser):
     print("Once before all method")
     wdf = WebDriverFactory(browser)
     driver = wdf.get_webdriver()
+    # lp = LoginPage(driver)
+    # lp.login("test@email.com", "abcbac")
 
     if request.cls is not None:
         request.cls.driver = driver
