@@ -20,10 +20,6 @@ class CoursesPage(BasePage):
     _courses_list = "//div[@class='course-listing-title']"
     _course = "//div[contains(@class, 'course-listing-title') and contains(text(), 'Learn Python')]"
     _enroll_button = "enroll-button-top"
-    _card_number = "cardnumber"
-    _expiration_date = "exp-date"
-    _cvc = "cvc"
-    _postal_code = "postal"
 
     def send_keys_to_search_box(self, search_key):
         self.send_keys_to(search_key, self._search_box)

@@ -1,24 +1,65 @@
-2020-01-23 21:07:11,283 - LoginPage - INFO - Element found with locator: Login and locator type: link
-2020-01-23 21:07:11,333 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
-2020-01-23 21:07:14,825 - LoginPage - INFO - Element found with locator: user_email and locator type: id
-2020-01-23 21:07:14,928 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
-2020-01-23 21:07:14,938 - LoginPage - INFO - Element found with locator: user_password and locator type: id
-2020-01-23 21:07:14,996 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
-2020-01-23 21:07:15,006 - LoginPage - INFO - Element found with locator: commit and locator type: name
-2020-01-23 21:07:16,709 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
-2020-01-23 21:07:16,721 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
-2020-01-23 21:07:16,721 - LoginPage - INFO - Element found
-2020-01-23 21:07:17,819 - LoginPage - INFO - Element found with locator: user_email and locator type: id
-2020-01-23 21:07:17,889 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
-2020-01-23 21:07:17,895 - LoginPage - INFO - Element found with locator: user_password and locator type: id
-2020-01-23 21:07:17,946 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
-2020-01-23 21:07:17,952 - LoginPage - INFO - Element found with locator: commit and locator type: name
-2020-01-23 21:07:21,289 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
-2020-01-23 21:07:21,294 - Util - INFO - Actual Text From Application Web UI --> :: Let's Kode It
-2020-01-23 21:07:21,294 - Util - INFO - Expected Text From Application Web UI --> :: Let's Kode It
-2020-01-23 21:07:21,294 - Util - INFO - ### Text contains expected text
-2020-01-23 21:07:21,294 - TestStatus - INFO - ### Verification Successful :: Title Verified
-2020-01-23 21:07:21,306 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
-2020-01-23 21:07:21,306 - LoginPage - INFO - Element found
-2020-01-23 21:07:21,306 - TestStatus - INFO - ### Verification Successful :: Login Verified
-2020-01-23 21:07:21,306 - TestStatus - INFO - test_valid_login ### TEST SUCCESSFUL
+2020-01-27 12:56:54,115 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-27 12:56:54,202 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-27 12:56:56,710 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-27 12:56:56,816 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-27 12:56:56,825 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-27 12:56:56,872 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-27 12:56:56,882 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-27 12:57:01,108 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-27 12:57:01,121 - Util - INFO - Actual Text From Application Web UI --> :: Let's Kode It
+2020-01-27 12:57:01,122 - Util - INFO - Expected Text From Application Web UI --> :: Let's Kode It
+2020-01-27 12:57:01,122 - Util - INFO - ### Text contains expected text
+2020-01-27 12:57:01,122 - ResultStatus - INFO - ### Verification Successful :: Title Verified
+2020-01-27 12:57:01,133 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-27 12:57:01,133 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-27 12:57:01,144 - LoginPage - INFO - Element found with locator: //img[@class='gravatar'] and locator type: xpath
+2020-01-27 12:57:01,183 - LoginPage - INFO - Clicked on element with locator: //img[@class='gravatar'] locator type: xpath
+2020-01-27 12:57:01,189 - LoginPage - INFO - Element found with locator: //a[contains(text(),'Log Out')] and locator type: xpath
+2020-01-27 12:57:04,104 - LoginPage - INFO - Clicked on element with locator: //a[contains(text(),'Log Out')] locator type: xpath
+2020-01-27 12:57:04,121 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-27 12:57:04,121 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-27 12:57:04,121 - ResultStatus - INFO - ### Verification Successful :: Logout Verified
+2020-01-27 12:57:04,121 - ResultStatus - INFO - ### Verification Successful :: Login and logout Verified
+2020-01-27 12:57:04,121 - ResultStatus - INFO - test_valid_login_logout ### TEST SUCCESSFUL
+2020-01-27 12:57:04,135 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-27 12:57:04,193 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-27 12:57:06,061 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-27 12:57:06,130 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-27 12:57:06,140 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-27 12:57:06,197 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-27 12:57:06,208 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-27 12:57:07,497 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-27 12:57:07,509 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-27 12:57:07,509 - LoginPage - INFO - Element found with locator: //div[contains(text(), 'Invalid email or password')] and locator type: xpath
+2020-01-27 12:57:11,725 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-01-27 12:57:11,777 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-01-27 12:57:14,246 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-01-27 12:57:14,339 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-01-27 12:57:14,349 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-01-27 12:57:14,401 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-01-27 12:57:14,411 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-01-27 12:57:18,882 - LoginPage - INFO - Clicked on element with locator: commit locator type: name
+2020-01-27 12:57:18,899 - CoursesPage - INFO - Element found with locator: //div[@class='row search']//div[1]//div[2]//button[1] and locator type: xpath
+2020-01-27 12:57:18,944 - CoursesPage - INFO - Clicked on element with locator: //div[@class='row search']//div[1]//div[2]//button[1] locator type: xpath
+2020-01-27 12:57:18,955 - CoursesPage - INFO - Element found with locator: //a[contains(text(),'Software Testing (6)')] and locator type: xpath
+2020-01-27 12:57:21,511 - CoursesPage - INFO - Clicked on element with locator: //a[contains(text(),'Software Testing (6)')] locator type: xpath
+2020-01-27 12:57:21,523 - CoursesPage - INFO - Element found with locator: //div[@class='course-listing-title'] and locator type: xpath
+2020-01-27 12:57:21,537 - CoursesPage - INFO - Element is displayed with locator: //div[@class='course-listing-title'] and locator type: xpath
+2020-01-27 12:57:21,538 - ResultStatus - INFO - ### Verification Successful :: Search for testing courses verified
+2020-01-27 12:57:21,538 - ResultStatus - INFO - test_dropdown_category ### TEST SUCCESSFUL
+2020-01-27 12:57:21,554 - CoursesPage - INFO - Element found with locator: //body//div[2]//div[2]//button[1] and locator type: xpath
+2020-01-27 12:57:21,620 - CoursesPage - INFO - Clicked on element with locator: //body//div[2]//div[2]//button[1] locator type: xpath
+2020-01-27 12:57:21,631 - CoursesPage - INFO - Element found with locator: //a[contains(text(),'Hemil Patel')] and locator type: xpath
+2020-01-27 12:57:22,782 - CoursesPage - INFO - Clicked on element with locator: //a[contains(text(),'Hemil Patel')] locator type: xpath
+2020-01-27 12:57:22,789 - CoursesPage - INFO - Element found with locator: //div[@class='course-listing-title'] and locator type: xpath
+2020-01-27 12:57:22,803 - CoursesPage - INFO - Element is displayed with locator: //div[@class='course-listing-title'] and locator type: xpath
+2020-01-27 12:57:22,803 - ResultStatus - INFO - ### Verification Successful :: Search by author verified
+2020-01-27 12:57:22,803 - ResultStatus - INFO - test_search_courses_by_author ### TEST SUCCESSFUL
+2020-01-27 12:57:22,819 - CoursesPage - INFO - Element found with locator: search-courses and locator type: id
+2020-01-27 12:57:22,890 - CoursesPage - INFO - Sent data to element with locator: search-courses locator type: id
+2020-01-27 12:57:22,900 - CoursesPage - INFO - Element found with locator: search-course-button and locator type: id
+2020-01-27 12:57:23,902 - CoursesPage - INFO - Clicked on element with locator: search-course-button locator type: id
+2020-01-27 12:57:23,911 - CoursesPage - INFO - Element found with locator: //div[@class='course-listing-title'] and locator type: xpath
+2020-01-27 12:57:23,921 - CoursesPage - INFO - Element is displayed with locator: //div[@class='course-listing-title'] and locator type: xpath
+2020-01-27 12:57:23,922 - ResultStatus - INFO - ### Verification Successful :: Search for python courses verified
+2020-01-27 12:57:23,922 - ResultStatus - INFO - test_search_python_courses ### TEST SUCCESSFUL

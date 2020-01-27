@@ -81,13 +81,13 @@ class SeleniumWrapper:
             if locator:
                 element = self.get_element(locator, locator_type)
             if element is not None:
-                self.log.info("Element found")
+                self.log.info("Element found with locator: " + locator + " and locator type: " + locator_type)
                 return True
             else:
-                self.log.info("Element not found")
+                self.log.error("Element not found with locator: " + locator + " and locator type: " + locator_type)
                 return False
         except:
-            self.log.error("Element not found")
+            self.log.error("Element not found with locator: " + locator + " and locator type: " + locator_type)
             return False
 
     def is_element_displayed(self, locator="", locator_type="id", element=None):
@@ -103,20 +103,20 @@ class SeleniumWrapper:
                               locator_type)
             return is_displayed
         except:
-            self.log.error("Element not found")
+            self.log.error("Element not found with locator: " + locator + " and locator type: " + locator_type)
             return False
 
     def is_element_list_present(self, locator, by_type):
         try:
             element_list = self.driver.find_elements(by_type, locator)
             if len(element_list) > 0:
-                self.log.info("Elements found")
+                self.log.info("Elements found with locator: " + locator)
                 return True
             else:
-                self.log.info("Elements not found")
+                self.log.info("Elements not found with locator: " + locator)
                 return False
         except:
-            self.log.error("Elements not found")
+            self.log.error("Elements not found with locator: " + locator)
             return False
 
     def wait_for_element(self, locator, locator_type="id", timeout=10, poll_frequency=0.5):

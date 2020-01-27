@@ -3,11 +3,11 @@ from base.selenium_wrappers import SeleniumWrapper
 from utilities import custom_logger as cl
 
 
-class TestStatus(SeleniumWrapper):
+class ResultStatus(SeleniumWrapper):
     log = cl.custom_logger(logging.INFO)
 
     def __init__(self, driver):
-        super(TestStatus, self).__init__(driver)
+        super(ResultStatus, self).__init__( driver )
         self.result_list = []
 
     def set_result(self, result, result_message):
