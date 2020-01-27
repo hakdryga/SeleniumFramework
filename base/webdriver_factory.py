@@ -9,7 +9,9 @@ class WebDriverFactory:
         base_url = "https://letskodeit.teachable.com/"
         if self.browser == "firefox":
             driver = webdriver.Firefox()
-        elif self.browser == "chrome":
+        if self.browser == "safari":
+            driver = webdriver.Safari()
+        if self.browser == "chrome":
             driver = webdriver.Chrome()
         else:
             driver = webdriver.Chrome()
