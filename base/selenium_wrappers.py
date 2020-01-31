@@ -17,6 +17,9 @@ class SeleniumWrapper:
         self.driver = driver
 
     def screenshot(self, result_message):
+        """
+        Takes screenshot of the current open web page
+        """
         file_name = result_message + "." + str(round(time.time() * 1000)) + ".png"
         screenshot_dir = "../screenshots/"
         relative_file_path = screenshot_dir + file_name
@@ -66,6 +69,9 @@ class SeleniumWrapper:
         return element
 
     def get_element_list(self, locator, locator_type="id"):
+        """
+        Get list of elements
+        """
         element = None
         try:
             locator_type = locator_type.lower()
@@ -137,6 +143,9 @@ class SeleniumWrapper:
         return element
 
     def element_click(self, locator="", locator_type="id", element=None):
+        """
+            Either provide element or a combination of locator and locator_type
+        """
         try:
             if locator:
                 element = self.get_element(locator, locator_type)
@@ -176,5 +185,50 @@ class SeleniumWrapper:
             self.driver.execute_script("window.scrollBy(0, -1000);")
         if direction == "down":
             self.driver.execute_script("window.scrollBy(0, 1000);")
+
+    def clear_field(self, locator="", locator_type="id"):
+        """
+        Clear an element field
+        """
+        element = self.get_element(locator, locator_type)
+        element.clear()
+        self.log.info("Clear field with locator: " + locator +
+                      " locatorType: " + locator_type)
+
+    def switch_to_frame(self, id="", name="", index=None):
+        if id:
+            self.driver.switch_to.frame(id)
+        elif name:
+            self.driver.switch_to.frame(name)
+        else:
+            self.driver.switch_to.frame(index)
+
+    def switch_to_default_content(self):
+        self.driver.switch_to.default_content()
+
+    def get_element_attribute_value(self, attribute, element=None, locator="", locator_type="id"):
+        if locator:
+            element = self.get_element(locator=locator, locator_type=locator_type)
+        value = element.get_attribute(attribute)
+        return value
+
+    def is_enabled(self, locator, locator_type="id", info=""):
+        element = self.get_element(locator, locator_type=locator_type)
+        enabled = False
+        try:
+            attribute_value = self.get_element_attribute_value(element=element, attribute="disabled")
+            if attribute_value is not None:
+                enabled = element.is_enabled()
+            else:
+                value = self.get_element_attribute_value(element=element, attribute="class")
+                self.log.info("Attribute value --> :: " + value)
+                enabled = not ("disabled" in value)
+            if enabled:
+                self.log.info("Element :: '" + info + "' is enabled")
+            else:
+                self.log.info("Element :: '" + info + "' is not enabled")
+        except:
+            self.log.error("Element :: '" + info + "' state could not be found")
+        return enabled
 
 # TODO: refactor except
