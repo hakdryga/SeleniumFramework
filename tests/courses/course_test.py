@@ -33,3 +33,10 @@ class TestCourse(unittest.TestCase):
     def test_invalid_enrollment(self):
         self.cp.enter_course_name("JavaScript")
         self.cp.select_course_to_enroll("JavaScript for beginners")
+        search_result = self.cp.is_courses_list_displayed()
+        self.rs.mark(search_result, "Search for javascript courses verified")
+        self.cp.enroll_course(number="1234 5678 9012 3456", exp="1220", cvv="444", zip_code="12345")
+        result = self.cp.verify_enroll_failed()
+        self.cp.go_back_two_pages()
+        self.rs.mark_final("test_invalid_enrollment", result, "Enrollment Failed Verification")
+
