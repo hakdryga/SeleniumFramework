@@ -28,7 +28,6 @@ class CoursesPage(BasePage):
     _submit_enroll = "confirm-purchase"
 
     def enter_course_name(self, name):
-        # self.wait_for_element(locator=self._search_box)
         self.clear_field(locator=self._search_box)
         self.send_keys_to(name, self._search_box)
         self.element_click(locator=self._search_box_button)
@@ -39,12 +38,10 @@ class CoursesPage(BasePage):
         return result
 
     def select_testing_from_courses_dropdown(self):
-        # self.wait_for_element(self._category, locator_type="xpath")
         self.element_click(self._category, locator_type="xpath")
         self.element_click(self._dropdown_software_testing_option, locator_type="xpath")
 
     def select_author_from_dropdown(self):
-        # self.wait_for_element(self._author, locator_type="xpath")
         self.element_click(self._author, locator_type="xpath")
         self.element_click(self._dropdown_author, locator_type="xpath")
 

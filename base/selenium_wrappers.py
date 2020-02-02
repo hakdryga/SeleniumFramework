@@ -32,7 +32,7 @@ class SeleniumWrapper:
                 os.makedirs(destination_dir)
             self.driver.save_screenshot(destination_file)
             self.log.info("Screenshots saved to directory: " + destination_file)
-        except:
+        except IOError:
             self.log.error("Exception Occurred")
             print_stack()
 
@@ -64,7 +64,7 @@ class SeleniumWrapper:
             by_type = self.get_by_type(locator_type)
             element = self.driver.find_element(by_type, locator)
             self.log.info("Element found with locator: " + locator + " and locator type: " + locator_type)
-        except:
+        except NoSuchElementException:
             self.log.error("Element not found with locator: " + locator + " and locator type: " + locator_type)
         return element
 
@@ -78,7 +78,7 @@ class SeleniumWrapper:
             by_type = self.get_by_type(locator_type)
             element = self.driver.find_elements(by_type, locator)
             self.log.info("Element list is found with locator: " + locator + " and locator type: " + locator_type)
-        except:
+        except NoSuchElementException:
             self.log.error("Element list not found with locator: " + locator + " and locator type: " + locator_type)
         return element
 
@@ -92,7 +92,7 @@ class SeleniumWrapper:
             else:
                 self.log.error("Element not found with locator: " + locator + " and locator type: " + locator_type)
                 return False
-        except:
+        except NoSuchElementException:
             self.log.error("Element not found with locator: " + locator + " and locator type: " + locator_type)
             return False
 
@@ -108,7 +108,7 @@ class SeleniumWrapper:
                 self.log.info("Element is not displayed with locator: " + locator + " and locator type: " +
                               locator_type)
             return is_displayed
-        except:
+        except NoSuchElementException:
             self.log.error("Element not found with locator: " + locator + " and locator type: " + locator_type)
             return False
 
@@ -121,7 +121,7 @@ class SeleniumWrapper:
             else:
                 self.log.info("Elements not found with locator: " + locator)
                 return False
-        except:
+        except NoSuchElementException:
             self.log.error("Elements not found with locator: " + locator)
             return False
 
@@ -137,7 +137,7 @@ class SeleniumWrapper:
                                                      ElementNotSelectableException])
             element = wait.until(ec.element_to_be_clickable((by_type, locator)))
             self.log.info("Element appeared on the web page")
-        except:
+        except TimeoutException:
             self.log.error("Element not appeared on the web page")
             print_stack()
         return element
@@ -151,7 +151,7 @@ class SeleniumWrapper:
                 element = self.get_element(locator, locator_type)
             element.click()
             self.log.info("Clicked on element with locator: " + locator + " locator type: " + locator_type)
-        except:
+        except WebDriverException:
             self.log.error("Cannot click on element with locator: " + locator + " locator type: " + locator_type)
             print_stack()
 
@@ -161,7 +161,7 @@ class SeleniumWrapper:
                 element = self.get_element(locator, locator_type)
             element.send_keys(data)
             self.log.info("Sent data to element with locator: " + locator + " locator type: " + locator_type)
-        except:
+        except WebDriverException:
             self.log.error("Cannot send data to element with locator: " + locator + " locator type: " + locator_type)
             print_stack()
 
@@ -174,7 +174,7 @@ class SeleniumWrapper:
                 text = element.get_attribute("innerText")
             if len(text) != 0:
                 text = text.strip()
-        except:
+        except NoSuchElementException:
             self.log.error("Failed to get text on element")
             print_stack()
             text = None
@@ -227,8 +227,8 @@ class SeleniumWrapper:
                 self.log.info("Element :: '" + info + "' is enabled")
             else:
                 self.log.info("Element :: '" + info + "' is not enabled")
-        except:
+        except WebDriverException:
             self.log.error("Element :: '" + info + "' state could not be found")
         return enabled
 
-# TODO: refactor except
+# TODO: improve exception handlig
