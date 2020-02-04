@@ -29,27 +29,27 @@ class CoursesPage(BasePage):
 
     def enter_course_name(self, name):
         self.clear_field(locator=self._search_box)
-        self.send_keys_to(name, self._search_box)
+        self.send_keys_to(name, locator=self._search_box)
         self.element_click(locator=self._search_box_button)
 
     def is_courses_list_displayed(self):
-        result = self.is_element_displayed(self._courses_list,
+        result = self.is_element_displayed(locator=self._courses_list,
                                            locator_type="xpath")
         return result
 
     def select_testing_from_courses_dropdown(self):
-        self.element_click(self._category, locator_type="xpath")
-        self.element_click(self._dropdown_software_testing_option, locator_type="xpath")
+        self.element_click(locator=self._category, locator_type="xpath")
+        self.element_click(locator=self._dropdown_software_testing_option, locator_type="xpath")
 
     def select_author_from_dropdown(self):
-        self.element_click(self._author, locator_type="xpath")
-        self.element_click(self._dropdown_author, locator_type="xpath")
+        self.element_click(locator=self._author, locator_type="xpath")
+        self.element_click(locator=self._dropdown_author, locator_type="xpath")
 
     def select_course_to_enroll(self, full_course_name):
         self.element_click(locator=self._course.format(full_course_name), locator_type="xpath")
 
     def click_enroll_button(self):
-        self.element_click(self._enroll_button)
+        self.element_click(locator=self._enroll_button)
 
     def enter_card_number(self, number):
         self.switch_to_frame(name="__privateStripeFrame8")

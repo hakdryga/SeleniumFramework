@@ -231,4 +231,4 @@ class SeleniumWrapper:
             self.log.error("Element :: '" + info + "' state could not be found")
         return enabled
 
-# TODO: improve exception handlig
+# TODO: improve exception handling

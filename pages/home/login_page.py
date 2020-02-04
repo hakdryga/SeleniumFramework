@@ -22,16 +22,16 @@ class LoginPage(BasePage):
     _home_logo = "//a[@class='navbar-brand header-logo']//img"
 
     def click_login_link(self):
-        self.element_click(self._login_link, locator_type="link")
+        self.element_click(locator=self._login_link, locator_type="link")
 
     def send_keys_to_email_field(self, username):
-        self.send_keys_to(username, self._email_field)
+        self.send_keys_to(username, locator=self._email_field)
 
     def send_keys_to_pass_field(self, password):
-        self.send_keys_to(password, self._pass_field)
+        self.send_keys_to(password, locator=self._pass_field)
 
     def click_login_button(self):
-        self.element_click(self._login_button, locator_type="name")
+        self.element_click(locator=self._login_button, locator_type="name")
 
     def login(self, username="", password=""):
         self.send_keys_to_email_field(username)
@@ -39,12 +39,12 @@ class LoginPage(BasePage):
         self.click_login_button()
 
     def is_login_successful(self):
-        result = self.is_element_present(self._logout,
+        result = self.is_element_present(locator=self._logout,
                                          locator_type="xpath")
         return result
 
     def is_login_failed(self):
-        result = self.is_element_present(self._invalid_email_or_password,
+        result = self.is_element_present(locator=self._invalid_email_or_password,
                                          locator_type="xpath")
         return result
 
@@ -52,14 +52,14 @@ class LoginPage(BasePage):
         return self.is_page_title_correct(self._title)
 
     def click_profile_image(self):
-        self.element_click(self._profile_image, locator_type="xpath")
+        self.element_click(locator=self._profile_image, locator_type="xpath")
 
     def click_logout(self):
-        self.element_click(self._logout, locator_type="xpath")
+        self.element_click(locator=self._logout, locator_type="xpath")
 
     def is_logout_successful(self):
-        result = self.is_element_present(self._login_link, locator_type="link")
+        result = self.is_element_present(locator=self._login_link, locator_type="link")
         return result
 
     def click_home_logo(self):
-        self.element_click(self._home_logo, locator_type="xpath")
+        self.element_click(locator=self._home_logo, locator_type="xpath")
