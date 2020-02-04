@@ -4,9 +4,12 @@ import unittest
 import logging
 import utilities.custom_logger as cl
 from utilities.result_status import ResultStatus
+from utilities.read_data_csv import get_csv_data
+from ddt import ddt, data, unpack
 
 
 @pytest.mark.usefixtures("setup")
+@ddt
 class TestCourse(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
@@ -20,23 +23,24 @@ class TestCourse(unittest.TestCase):
         search_result = self.cp.is_courses_list_displayed()
         self.rs.mark_final("test_search_courses_by_author", search_result, "Search by author verified")
 
-    def test_search_python_courses(self):
+    def test_search_courses_using_search_box(self):
         self.cp.enter_course_name("python")
         search_result = self.cp.is_courses_list_displayed()
-        self.rs.mark_final("test_search_python_courses", search_result, "Search for python courses verified")
+        self.rs.mark_final("test_search_courses_using_search_box", search_result, "Search for python courses verified")
 
     def test_search_courses_by_category(self):
         self.cp.select_testing_from_courses_dropdown()
         search_result = self.cp.is_courses_list_displayed()
         self.rs.mark_final("test_search_courses_by_category", search_result, "Search by category verified")
 
-    def test_invalid_enrollment(self):
-        self.cp.enter_course_name("JavaScript")
-        self.cp.select_course_to_enroll("JavaScript for beginners")
+    @data(*get_csv_data("test_data.csv"))
+    @unpack
+    def test_invalid_enrollment(self, course_name, cc_num, cc_exp, cc_ccv, zip_code):
+        self.cp.enter_course_name(course_name)
+        self.cp.select_course_to_enroll(course_name)
         search_result = self.cp.is_courses_list_displayed()
-        self.rs.mark(search_result, "Search for javascript courses verified")
-        self.cp.enroll_course(number="1234 5678 9012 3456", exp="1220", cvv="444", zip_code="12345")
+        self.rs.mark(search_result, "Search for " + course_name + " verified")
+        self.cp.enroll_course(number=cc_num, exp=cc_exp, cvv=cc_ccv, zip_code=zip_code)
         result = self.cp.verify_enroll_failed()
         self.cp.go_back_two_pages()
         self.rs.mark_final("test_invalid_enrollment", result, "Enrollment Failed Verification")
-
