@@ -19,6 +19,7 @@ class LoginPage(BasePage):
     _logout = "//a[contains(text(),'Log Out')]"
     _invalid_email_or_password = "//div[contains(text(), 'Invalid email or password')]"
     _title = "Let's Kode It"
+    _home_logo = "//a[@class='navbar-brand header-logo']//img"
 
     def click_login_link(self):
         self.element_click(self._login_link, locator_type="link")
@@ -59,3 +60,6 @@ class LoginPage(BasePage):
     def is_logout_successful(self):
         result = self.is_element_present(self._login_link, locator_type="link")
         return result
+
+    def click_home_logo(self):
+        self.element_click(self._home_logo, locator_type="xpath")

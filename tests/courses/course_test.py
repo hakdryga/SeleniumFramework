@@ -33,7 +33,7 @@ class TestCourse(unittest.TestCase):
         search_result = self.cp.is_courses_list_displayed()
         self.rs.mark_final("test_search_courses_by_category", search_result, "Search by category verified")
 
-    @data(*get_csv_data("test_data.csv"))
+    @data(*get_csv_data("ordering_data.csv"))
     @unpack
     def test_invalid_enrollment(self, course_name, cc_num, cc_exp, cc_ccv, zip_code):
         self.cp.enter_course_name(course_name)

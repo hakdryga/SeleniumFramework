@@ -4,8 +4,11 @@ import unittest
 import logging
 import utilities.custom_logger as cl
 from utilities.result_status import ResultStatus
+from ddt import ddt, data, unpack
+from utilities.read_data_csv import get_csv_data
 
 
+@ddt
 @pytest.mark.usefixtures("setup")
 class TestLogin(unittest.TestCase):
 
@@ -16,9 +19,12 @@ class TestLogin(unittest.TestCase):
         self.rs = ResultStatus(self.driver)
 
     @pytest.mark.run(order=2)
-    def test_invalid_login(self):
+    @data(*get_csv_data("login_data.csv"))
+    @unpack
+    def test_invalid_login(self, username, password):
+        self.lp.click_home_logo()
         self.lp.click_login_link()
-        self.lp.login("test@email.com", "abcabcxx")
+        self.lp.login(username, password)
         result_login = self.lp.is_login_failed()
         assert result_login
 
