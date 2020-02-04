@@ -1,5 +1,5 @@
 course_name, cc_num, cc_exp, cc_ccv, zip_code
-"JavaScript for beginners", "1234 2222 9012 3456", "1220", "444", 11111
-"Learn Python 3 from scratch", "1234 3333 9012 3456", "1221", "555", 22222
-"Selenium WebDriver With Java", "1234 4444 9012 3456", "1222", "666", 33333
-"JavaScript Masterclass", "1234 5555 9012 3456", "1223", "777", 44444
+JavaScript for beginners,1234 2222 9012 3456,1220,444,11111
+Learn Python 3 from scratch,1234 3333 9012 3456,1221,555,22222
+Selenium WebDriver With Java,1234 4444 9012 3456,1222,666,33333
+JavaScript Masterclass,1234 5555 9012 3456,1223,777,44444
