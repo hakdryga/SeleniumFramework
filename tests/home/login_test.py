@@ -19,7 +19,7 @@ class TestLogin(unittest.TestCase):
         self.rs = ResultStatus(self.driver)
 
     @pytest.mark.run(order=2)
-    @data(*get_csv_data("login_data.csv"))
+    @data(*get_csv_data("csvs/login_data.csv"))
     @unpack
     def test_invalid_login(self, username, password):
         self.lp.click_home_logo()
