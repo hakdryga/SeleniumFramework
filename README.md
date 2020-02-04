@@ -1,2 +1,2 @@
 # SeleniumFramework
-Selenium framework implemented in Python (selenium, ddt, pytest)
+Selenium framework implemented in Python 3 (selenium, ddt, pytest)
