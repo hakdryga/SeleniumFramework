@@ -1,0 +1,22 @@
+__pycache__/
+.pytest_cache
+*$py.class
+
+# C extensions
+*.so
+
+# packaging
+assets/
+screenshots/
+
+# logs
+geckodriver.log
+Pipfile
+Pipfile.lock
+
+# pyenv
+.python-version
+
+# virtualenv
+venv/
+ENV/
