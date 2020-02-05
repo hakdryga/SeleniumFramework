@@ -11,6 +11,7 @@ tests/courses/__pycache__/
 tests/home/__pycache__/
 utilities/__pycache__/
 # packaging
+.idea/
 assets/
 screenshots/
 
