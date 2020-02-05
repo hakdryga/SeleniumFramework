@@ -1,9 +1,9 @@
 # SeleniumFramework
 Selenium framework implemented in Python 3 (selenium, pytest, DDT)
 
-python 3.7.4
-pytest-5.3.2
-pytest-html-2.0.1
-pytest-ordering-0.6
-selenium-3.141.0
-ddt-1.2.2
+* _python 3.7.4_
+* _pytest-5.3.2_
+* _pytest-html-2.0.1_
+* _pytest-ordering-0.6_
+* _selenium-3.141.0_
+* _ddt-1.2.2_
