@@ -1,8 +1,14 @@
 *$py.class
-
+*.pyc
 # C extensions
 *.so
-
+__pycache__/
+base/__pycache__/
+pages/courses/__pycache__/
+pages/home/__pycache__/
+tests/courses/__pycache__/
+tests/home/__pycache__/
+utilities/__pycache__/
 # packaging
 assets/
 screenshots/
