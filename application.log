@@ -187,3 +187,22 @@
 2020-02-04 15:32:52,708 - CoursesPage - INFO - Element is displayed with locator: //div[@class='course-listing-title'] and locator type: xpath
 2020-02-04 15:32:52,708 - ResultStatus - INFO - ### Verification Successful :: Search for python courses verified
 2020-02-04 15:32:52,708 - ResultStatus - INFO - test_search_courses_using_search_box ### TEST SUCCESSFUL
+2020-02-05 17:12:34,469 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-02-05 17:12:34,519 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-02-05 17:12:34,774 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-02-05 17:12:39,461 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-02-05 17:12:39,544 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
+2020-02-05 17:12:43,318 - LoginPage - INFO - Element found with locator: user_email and locator type: id
+2020-02-05 17:12:43,432 - LoginPage - INFO - Sent data to element with locator: user_email locator type: id
+2020-02-05 17:12:43,443 - LoginPage - INFO - Element found with locator: user_password and locator type: id
+2020-02-05 17:12:43,507 - LoginPage - INFO - Sent data to element with locator: user_password locator type: id
+2020-02-05 17:12:43,518 - LoginPage - INFO - Element found with locator: commit and locator type: name
+2020-02-05 17:13:05,277 - LoginPage - ERROR - Cannot click on element with locator: Login locator type: link
+2020-02-05 17:13:05,281 - LoginPage - ERROR - Cannot send data to element with locator: user_email locator type: id
+2020-02-05 17:13:05,283 - LoginPage - ERROR - Cannot send data to element with locator: user_password locator type: id
+2020-02-05 17:13:05,286 - LoginPage - ERROR - Cannot click on element with locator: commit locator type: name
+2020-02-05 17:13:05,292 - LoginPage - ERROR - Failed to get page title
+2020-02-05 17:13:05,300 - ResultStatus - ERROR - ### Verification Failed :: Title Verified
+2020-02-05 17:13:05,302 - ResultStatus - ERROR - ### Exception Occurred
+2020-02-05 17:13:09,858 - LoginPage - INFO - Element found with locator: Login and locator type: link
+2020-02-05 17:13:09,913 - LoginPage - INFO - Clicked on element with locator: Login locator type: link
