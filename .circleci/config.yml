@@ -10,14 +10,24 @@ jobs:
     steps:
       # Step 1: obtain repo from GitHub
       - checkout
-      # Step 2: create virtual env and install dependencies
+      # Step 2: Install and run Selenium
+      - run:
+          - name: Download Selenium
+            command: |
+              curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
+      - run:
+          name: Start Selenium
+          command: |
+            java -jar selenium-server-standalone-3.5.3.jar -log test-reports/selenium.log
+          background: true
+      # Step 3: create virtual env and install dependencies
       - run:
           name: install dependencies
           command: |
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-      # Step 3: run linter and tests
+      # Step 4: run linter and tests
       - run:
           name: run tests
           command: |
