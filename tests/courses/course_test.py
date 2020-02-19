@@ -21,26 +21,32 @@ class TestCourse(unittest.TestCase):
     def test_search_courses_by_author(self):
         self.cp.select_author_from_dropdown()
         search_result = self.cp.is_courses_list_displayed()
-        self.rs.mark_final("test_search_courses_by_author", search_result, "Search by author verified")
+        self.rs.mark_final("test_search_courses_by_author", search_result,
+                           "Search by author verified")
 
     def test_search_courses_using_search_box(self):
         self.cp.enter_course_name("python")
         search_result = self.cp.is_courses_list_displayed()
-        self.rs.mark_final("test_search_courses_using_search_box", search_result, "Search for python courses verified")
+        self.rs.mark_final("test_search_courses_using_search_box",
+                           search_result, "Search for python courses verified")
 
     def test_search_courses_by_category(self):
         self.cp.select_testing_from_courses_dropdown()
         search_result = self.cp.is_courses_list_displayed()
-        self.rs.mark_final("test_search_courses_by_category", search_result, "Search by category verified")
+        self.rs.mark_final("test_search_courses_by_category", search_result,
+                           "Search by category verified")
 
     @data(*get_csv_data("csvs/ordering_data.csv"))
     @unpack
-    def test_invalid_enrollment(self, course_name, cc_num, cc_exp, cc_ccv, zip_code):
+    def test_invalid_enrollment(self, course_name, cc_num, cc_exp,
+                                cc_ccv, zip_code):
         self.cp.enter_course_name(course_name)
         self.cp.select_course_to_enroll(course_name)
         search_result = self.cp.is_courses_list_displayed()
         self.rs.mark(search_result, "Search for " + course_name + " verified")
-        self.cp.enroll_course(number=cc_num, exp=cc_exp, cvv=cc_ccv, zip_code=zip_code)
+        self.cp.enroll_course(number=cc_num, exp=cc_exp,
+                              cvv=cc_ccv, zip_code=zip_code)
         result = self.cp.verify_enroll_failed()
         self.cp.go_back_two_pages()
-        self.rs.mark_final("test_invalid_enrollment", result, "Enrollment Failed Verification")
+        self.rs.mark_final("test_invalid_enrollment", result,
+                           "Enrollment Failed Verification")

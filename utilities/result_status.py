@@ -7,7 +7,7 @@ class ResultStatus(SeleniumWrapper):
     log = cl.custom_logger(logging.INFO)
 
     def __init__(self, driver):
-        super(ResultStatus, self).__init__( driver )
+        super(ResultStatus, self).__init__(driver)
         self.result_list = []
 
     def set_result(self, result, result_message):
@@ -15,16 +15,19 @@ class ResultStatus(SeleniumWrapper):
             if result is not None:
                 if result:
                     self.result_list.append("PASS")
-                    self.log.info("### Verification Successful :: " + result_message)
+                    self.log.info("### Verification Successful :: "
+                                  + result_message)
                 else:
                     self.result_list.append("FAIL")
-                    self.log.error("### Verification Failed :: " + result_message)
+                    self.log.error("### Verification Failed :: "
+                                   + result_message)
                     self.screenshot(result_message)
             else:
                 self.result_list.append("FAIL")
-                self.log.error("### Verification Failed :: " + result_message)
+                self.log.error("### Verification Failed :: "
+                               + result_message)
                 self.screenshot(result_message)
-        except:
+        except ValueError:
             self.result_list.append("FAILED")
             self.log.error("### Exception Occurred")
             self.screenshot(result_message)

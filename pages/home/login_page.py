@@ -17,7 +17,8 @@ class LoginPage(BasePage):
     _login_button = "commit"
     _profile_image = "//img[@class='gravatar']"
     _logout = "//a[contains(text(),'Log Out')]"
-    _invalid_email_or_password = "//div[contains(text(), 'Invalid email or password')]"
+    _invalid_email_or_password = "//div[contains(text(), " \
+                                 "'Invalid email or password')]"
     _title = "Let's Kode It"
     _home_logo = "//a[@class='navbar-brand header-logo']//img"
 
@@ -44,8 +45,9 @@ class LoginPage(BasePage):
         return result
 
     def is_login_failed(self):
-        result = self.is_element_present(locator=self._invalid_email_or_password,
-                                         locator_type="xpath")
+        result = self.is_element_present(
+            locator=self._invalid_email_or_password,
+            locator_type="xpath")
         return result
 
     def is_expected_login_title(self):
@@ -58,7 +60,8 @@ class LoginPage(BasePage):
         self.element_click(locator=self._logout, locator_type="xpath")
 
     def is_logout_successful(self):
-        result = self.is_element_present(locator=self._login_link, locator_type="link")
+        result = self.is_element_present(locator=self._login_link,
+                                         locator_type="link")
         return result
 
     def click_home_logo(self):

@@ -1,6 +1,7 @@
 from traceback import print_stack
 from base.selenium_wrappers import SeleniumWrapper
 from utilities.util import Util
+from selenium.common.exceptions import NoSuchElementException
 
 
 class BasePage(SeleniumWrapper):
@@ -13,7 +14,10 @@ class BasePage(SeleniumWrapper):
         try:
             actual_title = self.get_title()
             return self.util.is_text_contains(actual_title, title_to_verify)
-        except:
+        except NoSuchElementException:
             self.log.error("Failed to get page title")
             print_stack()
             return False
+
+
+# TODO: Better exception here?

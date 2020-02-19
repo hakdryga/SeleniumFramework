@@ -37,4 +37,5 @@ class TestLogin(unittest.TestCase):
         self.lp.click_logout()
         result_logout = self.lp.is_logout_successful()
         self.rs.mark(result_logout, "Logout Verified")
-        self.rs.mark_final("test_valid_login_logout", result_login, "Login and logout Verified")
+        self.rs.mark_final("test_valid_login_logout", result_login,
+                           "Login and logout Verified")

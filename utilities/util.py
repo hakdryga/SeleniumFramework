@@ -39,8 +39,10 @@ class Util:
 
         Parameters:
             list_size: Number of names. Default is 5 names in a list
-            item_length: Length: It should be a list containing number of items equal to the listSize
-                        This determines the length of the each item in the list -> [1, 2, 3, 4, 5]
+            item_length: Length: It should be a list containing
+            number of items equal to the listSize
+            This determines the length of the each item in the
+            list -> [1, 2, 3, 4, 5]
         """
         name_list = []
         for i in range(0, list_size):
@@ -49,8 +51,10 @@ class Util:
 
     def is_text_contains(self, actual_text, expected_text):
 
-        self.log.info("Actual Text From Application Web UI --> :: " + actual_text)
-        self.log.info("Expected Text From Application Web UI --> :: " + expected_text)
+        self.log.info("Actual Text From Application Web UI --> :: "
+                      + actual_text)
+        self.log.info("Expected Text From Application Web UI --> :: "
+                      + expected_text)
         if expected_text.lower() in actual_text.lower():
             self.log.info("### Text contains expected text")
             return True
@@ -60,8 +64,10 @@ class Util:
 
     def is_text_match(self, actual_text, expected_text):
 
-        self.log.info("Actual Text From Application Web UI --> :: " + actual_text)
-        self.log.info("Expected Text From Application Web UI --> :: " + expected_text)
+        self.log.info("Actual Text From Application Web UI --> :: "
+                      + actual_text)
+        self.log.info("Expected Text From Application Web UI --> :: "
+                      + expected_text)
         if actual_text.lower() == expected_text.lower():
             self.log.info("### Text match")
             return True

@@ -15,10 +15,12 @@ class CoursesPage(BasePage):
     _search_box_button = "search-course-button"
     _category = "//div[@class='row search']//div[1]//div[2]//button[1]"
     _author = "//body//div[2]//div[2]//button[1]"
-    _dropdown_software_testing_option = "//a[contains(text(),'Software Testing (6)')]"
+    _dropdown_software_testing_option = "//a[contains(text()," \
+                                        "'Software Testing (6)')]"
     _dropdown_author = "//a[contains(text(),'Hemil Patel')]"
     _courses_list = "//div[@class='course-listing-title']"
-    _course = "//div[contains(@class, 'course-listing-title') and contains(text(), '{0}')]"
+    _course = "//div[contains(@class, 'course-listing-title') and " \
+              "contains(text(), '{0}')]"
     _enroll_button = "enroll-button-top"
     _cc_num = "//input[@aria-label='Credit or debit card number']"
     _cc_exp = "exp-date"
@@ -39,14 +41,16 @@ class CoursesPage(BasePage):
 
     def select_testing_from_courses_dropdown(self):
         self.element_click(locator=self._category, locator_type="xpath")
-        self.element_click(locator=self._dropdown_software_testing_option, locator_type="xpath")
+        self.element_click(locator=self._dropdown_software_testing_option,
+                           locator_type="xpath")
 
     def select_author_from_dropdown(self):
         self.element_click(locator=self._author, locator_type="xpath")
         self.element_click(locator=self._dropdown_author, locator_type="xpath")
 
     def select_course_to_enroll(self, full_course_name):
-        self.element_click(locator=self._course.format(full_course_name), locator_type="xpath")
+        self.element_click(locator=self._course.format(full_course_name),
+                           locator_type="xpath")
 
     def click_enroll_button(self):
         self.element_click(locator=self._enroll_button)
@@ -68,7 +72,8 @@ class CoursesPage(BasePage):
 
     def enter_zip(self, zip_code):
         self.switch_to_frame(name="__privateStripeFrame11")
-        self.send_keys_to(zip_code, locator=self._zip_code, locator_type="name")
+        self.send_keys_to(zip_code, locator=self._zip_code,
+                          locator_type="name")
         self.switch_to_default_content()
 
     def click_agreement_checkbox(self):
@@ -90,7 +95,8 @@ class CoursesPage(BasePage):
         self.click_agreement_checkbox()
 
     def verify_enroll_failed(self):
-        result = self.is_enabled(locator=self._submit_enroll, info="Enroll Button")
+        result = self.is_enabled(locator=self._submit_enroll,
+                                 info="Enroll Button")
         return not result
 
     def go_back_two_pages(self):
