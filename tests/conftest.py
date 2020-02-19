@@ -9,7 +9,7 @@ def setup(request, browser):
     driver = wdf.get_webdriver()
     lp = LoginPage(driver)
     lp.click_login_link()
-    lp.login("hakdryga@gmail.com", "qaz1qwe4")
+    lp.login("************", "************")
 
     if request.cls is not None:
         request.cls.driver = driver
