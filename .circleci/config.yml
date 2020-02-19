@@ -1,36 +1,47 @@
-# Python CircleCI 2.0 configuration file
 version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3.7
+      # specify the version you desire here
+      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
+      - image: circleci/python:3.7.3-browsers
 
-    working_directory: ~/SeleniumFramework
+    working_directory: ~/repo
 
     steps:
-      # Step 1: obtain repo from GitHub
       - checkout
-      # Step 2: Install and run Selenium
-      - run:
-          name: Download Selenium
-          command: |
-            curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
-      - run:
-          name: Start Selenium
-          command: |
-            java -jar selenium-server-standalone-3.5.3.jar -log test-reports/selenium.log
-          background: true
-      # Step 3: create virtual env and install dependencies
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
       - run:
           name: install dependencies
           command: |
             python3 -m venv venv
             . venv/bin/activate
+            pip install --upgrade pip
             pip install -r requirements.txt
-      # Step 4: run linter and tests
+
+      - run: mkdir test-reports
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+
       - run:
           name: run tests
           command: |
             . venv/bin/activate
-            flake8 --exclude=venv* --statistics
-            pytest -v --cov
+            pytest -v
+
+      - store_artifacts:
+          path: test-reports/
+          destination: test-reports
+
+      - store_test_results:
+          path: test-results
