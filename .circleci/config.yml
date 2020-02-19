@@ -13,8 +13,8 @@ jobs:
       # Step 2: Install and run Selenium
       - run:
           name: Download Selenium
-            command: |
-              curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
+          command: |
+            curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
       - run:
           name: Start Selenium
           command: |
