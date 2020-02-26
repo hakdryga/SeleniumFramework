@@ -11,5 +11,6 @@ Selenium framework implemented in Python 3 (selenium, pytest, DDT)
 
 To run this project successfully you need to sign up on test page:       
 https://letskodeit.teachable.com/          
-And then update your credentials in configuration file (conftest.py)
-Run project from root directory typing: pytest /tests/test_suite.py
+And then update your credentials in configuration file (conftest.py)             
+Run project from root directory typing:          
+**pytest tests/test_suite.py**
