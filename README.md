@@ -8,9 +8,3 @@ Selenium framework implemented in Python 3 (selenium, pytest, DDT)
 * _selenium-3.141.0_
 * _ddt-1.2.2_
 * _flake8==3.7.9_
-
-To run this project successfully you need to sign up on test page:       
-https://letskodeit.teachable.com/          
-And then update your credentials in configuration file (conftest.py)             
-Run project from root directory typing:          
-**pytest tests/test_suite.py**
